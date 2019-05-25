@@ -1,0 +1,47 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.movieCard,
+.overlay {
+  text-align: center;
+}
+
+img,
+.overlay {
+  transition: .3s all;
+  border-radius: 3px;
+}
+
+
+
+.movieCard .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  opacity: 0;
+}
+.movieCard .overlay h2 {
+  padding-top: 20%;
+  font-family: 'Droid Serif', serif;
+}
+.movieCard .overlay p {
+  font-family: 'Julius Sans One', sans-serif;
+}
+.movieCard:hover .overlay {
+  opacity: 1;
+}
+.movieCard:hover img {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}

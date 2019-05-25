@@ -1,0 +1,102 @@
+<html lang="en">
+   <meta charset="UTF-8">
+   <!-- If IE use the latest rendering engine -->
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- Set the page to the width of the device and set the zoon level -->
+   <link href='https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+   <link rel="stylesheet" href="/css/Bstyle.css">
+   <link rel="stylesheet" href="/css/master.css">
+
+
+
+   <style media="screen">
+     .oneMovie {
+
+       background-color: #cccccc;
+       background-repeat: no-repeat;
+       background-position: center center;
+       background-attachment: fixed;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+
+
+   }
+   .navbar{
+     margin-bottom: 0px !important;
+   }
+   </style>
+
+   <body>
+
+
+
+      <div class="container-fluid oneMovie" id="movieMain">
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+        <form class="form-horizontal" action='' method="POST">
+          <fieldset>
+            <div id="legend">
+              <legend class=""> Pre-Register Now</legend>
+            </div>
+            <div class="control-group">
+              <!-- Username -->
+              <label class="control-label"  for="username">Name</label>
+              <div class="controls">
+                <input type="text" id="username" name="username" placeholder="Name" class="input-xlarge">
+              </div>
+            </div>
+
+            <div class="control-group">
+              <!-- E-mail -->
+              <label class="control-label" for="email">E-mail</label>
+              <div class="controls">
+                <input type="text" id="email" name="email" placeholder="mail@gmail.com" class="input-xlarge">
+                <p class="help-block">Please provide your E-mail</p>
+              </div>
+            </div>
+
+            <div class="control-group">
+              <!-- Password-->
+              <label class="control-label" for="Adresss">Adress</label>
+              <div class="controls">
+                <input type="Text" id="Address" name="Address" placeholder="Fancy Str. 99" class="input-xlarge">
+                <p class="help-block">Street name and number</p>
+              </div>
+            </div>
+
+            <div class="control-group">
+              <!-- Password-->
+              <label class="control-label" for="Adresss">Post code</label>
+              <div class="controls">
+                <input type="Text" id="pcode" name="pcode" placeholder="" class="input-xlarge">
+                <p class="help-block">Post Code</p>
+              </div>
+            </div>
+
+
+
+            <div class="control-group">
+              <!-- Button -->
+              <div class="controls">
+                <button class="btn btn-success">Register</button>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+
+</div>
+
+
+
+
+<script type="text/javascript">
+
+  var bg = window.location.hash
+  document.getElementById("movieMain").style.background = `url(${bg.substring(1)})`;
+</script>

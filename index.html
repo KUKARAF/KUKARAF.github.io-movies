@@ -1,0 +1,302 @@
+<html lang="en">
+  <meta charset="UTF-8" />
+  <!-- If IE use the latest rendering engine -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  <!-- Set the page to the width of the device and set the zoon level -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="./css/Bstyle.css" />
+  <link rel="stylesheet" href="./css/master.css" />
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+  />
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <img class="navbar-brand" src="./top_logo_r_small_white.png" />
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active ">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              data-fancybox
+              data-type="iframe"
+              data-src="./about.html"
+              href="javascript:;"
+            >
+              About
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="hiddenDescription">
+      <h1 id="readerTitle"></h1>
+      <div id="reader"></div>
+    </div>
+    <div class="container-fluid topMovieBar py-3 py-md-5">
+      <h1>Upcoming movies</h1>
+      <div class="row" id="topMovieCardsContainerlMovies"></div>
+      <!--Close topMovieCardsContainerlMovies Carousel-->
+      <!-- </div> -->
+      <!-- <div class="container-fluid"> -->
+      <iframe
+        src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1s6Xnk_lL4gFBq9UM1a1UhGY3ElgPfBeMVlD8I7A4MRM&font=Default&lang=en&initial_zoom=2&height=650"
+        width="100%"
+        height="650"
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen
+        frameborder="0"
+      ></iframe>
+    </div>
+
+    <div class="container-fluid news">
+      <h1>NEWS</h1>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card bg-dark">
+            <img class="card-img-top" src="./news1.jpg" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Exciting News!</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- end card -->
+        <div class="col-md-3">
+          <div class="card bg-dark">
+            <img class="card-img-top" src="./news2.jpg" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Exciting News!</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- end card -->
+        <div class="col-md-3">
+          <div class="card bg-dark">
+            <img class="card-img-top" src="./news3.jpg" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Exciting News!</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- end card -->
+
+        <div class="col-md-3">
+          <div class="card bg-dark">
+            <img class="card-img-top" src="./news4.jpg" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Exciting News!</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- end card -->
+      </div>
+      <!-- row end  -->
+    </div>
+
+    <!-- close top movie div  -->
+    <!-- Endcontainer for big movie-->
+
+    <!-- text -->
+
+    <!-- secondary movies  -->
+
+    <section id="moviesList">
+      <!-- <div class="container-fluid secondMovieSpace autoComplete" movieID=457136>
+            <div class="col12 row secondMovieCard" style="background-image: url(/moovies/457136background.jpg)">
+                <img src="../moovies/457136poster.jpg" alt="">
+                <div class="rating">
+
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+
+                <h2 class="title">Check This Out!w</h2>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                <div class="btn-group bottomButton" role="group" aria-label="Button group with nested dropdown">
+                    <button type="button" class="btn btn-secondary " onclick="goToMovie (this)">More</button>
+                    <button type="button" class="trailerPlay btn btn-secondary" onclick="loadTrailer(this)"> <i
+              class="trailerPlay fas fa-play"></i></button>
+                </div>
+
+            </div>
+
+        </div> -->
+    </section>
+
+    <footer
+      class="section footer-classic context-dark bg-image py-5"
+      style="background: #222222;"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-xl-5">
+            <div class="pr-xl-4">
+              <a class="brand" href="index.html"
+                ><img
+                  class="brand-logo-light"
+                  src="top_logo_r_small_white.png"
+                  alt=""
+                  width="105"
+                  height="62"
+                  srcset="images/agency/logo-retina-inverse-280x74.png 2x"
+              /></a>
+              <p>
+                Brooklyn Film Festival (BFF), a 501(c)(3) non-profit
+                organization, is an International, competitive festival. BFF
+                mission is to provide a public forum in Brooklyn in order to
+                advance public interest in films and the independent production
+                of films.
+              </p>
+              <!-- Rights-->
+              <p class="rights">
+                <span></span><span class="copyright-year">2019</span
+                ><span> </span><span>Brooklyn Film Festival </span
+                ><span>. </span
+                ><span>is a 501(c)(3) non-profit organization</span>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <dl class="contact-list-address ">
+              <dt>Adress:</dt>
+              <dd>
+                Brooklyn Film Festival 180 South 4th Street, Suite 2 S,
+                Brooklyn, NY 11211, United States
+              </dd>
+              <dd>
+                <a
+                  class="shutUpAndTakeMe"
+                  href="https://goo.gl/maps/q5csBrjp9GH2"
+                  >Take me there</a
+                >
+              </dd>
+            </dl>
+            <dl class="contact-list">
+              <dt>email:</dt>
+              <dd><a href="mailto:#"> submit@wbff.org</a></dd>
+            </dl>
+            <dl class="contact-list-phone">
+              <dt>phones:</dt>
+              <dd><a href="tel:#">+1 (718) 388 4306</a></dd>
+            </dl>
+          </div>
+          <div class="col-md-4 col-xl-3">
+            <h5>Relevant Links</h5>
+            <ul class="" id="bottomNavList">
+              <li><a href="http://brooklyn.news12.com/">Brooklyn News</a></li>
+              <li>
+                <a href="https://www.brooklynbridgepark.org/"
+                  >Brooklynbridgepark</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <ul class="socialIcons text-center">
+              <a href="https://www.facebook.com/">
+                <i class="fab fa-facebook-f fa-2x"></i
+              ></a>
+              <a href="https://www.twitter.com/">
+                <i class="fab fa-twitter fa-2x"></i
+              ></a>
+              <a href="https://www.instagram.com/">
+                <i class="fab fa-instagram fa-2x"></i
+              ></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="./js/showTrailer.js"></script>
+    <script type="text/javascript" src="./js/loadBottom.js"></script>
+  </body>
+</html>
